@@ -2,6 +2,9 @@ import React from "react";
 import { GitHub } from "@mui/icons-material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
+import HomeIcon from '@mui/icons-material/Home';
 
 const Contact = () => {
   return (
@@ -14,10 +17,10 @@ const Contact = () => {
             <p className="text-green-400 text-3xl">Front End - Developer</p>
           </div>
           <div className="inforContact animate__animated animate__backInRight text-xl max-w-xl">
-            <p>Phone: 0982631993</p>
-            <p>Mail: sinhla213@gmail.com</p>
+            <p><PhoneIcon />: 0982631993</p>
+            <p><EmailIcon />: sinhla213@gmail.com</p>
             <p>
-              Address: 537 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2 - Tp Thủ
+              <HomeIcon />: 537 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2 - Tp Thủ
               Đức, TpHCM
             </p>
             <a

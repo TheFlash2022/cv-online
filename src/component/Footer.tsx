@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="text-center text-6xl">
         <a
           className="animate__animated animate__heartBeat animate__infinite"
-          href="https://drive.google.com/file/d/1JbxrnybFfQy84GhJns0o5j6Vd6qa_GE0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1wnGprcPoKbjs69quHUCFrrp1W8F2UtLm/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
