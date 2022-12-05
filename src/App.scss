@@ -110,39 +110,138 @@
   }
 }
 
-
-@media (max-width:1200px){
-  .contact{
-    .infor{
-      .avatar{
+@media (max-width: 1200px) {
+  .contact {
+    .infor {
+      .avatar {
         width: 380px;
         height: 380px;
         top: 90px;
         left: 160px;
       }
-      .inforContact{
+      .inforContact {
         top: 140px;
         right: 60px;
       }
     }
   }
 }
-@media (max-width:992px){
-  .contact{
-    .infor{
-      .avatar{
+@media (max-width: 992px) {
+  .contact {
+    .infor {
+      .avatar {
         width: 350px;
         height: 350px;
         top: 80px;
         left: 80px;
       }
-      .inforContact{
+      .inforContact {
         top: 140px;
         right: 30px;
         max-width: 30rem;
       }
     }
   }
+  .ex_edu {
+    padding-left: 20px;
+    .experiences {
+      max-width: 450px;
+      margin-right: 25px;
+    }
+    .education {
+      margin-right: 5px;
+    }
+  }
+  .myProject {
+    .des {
+      max-width: 50%;
+      margin-right: 20px;
+    }
+  }
 }
-@media (max-width:768px){}
-@media (max-width:600px){}
+@media (max-width: 768px) {
+  .contact {
+    .infor {
+      .avatar {
+        width: 300px;
+        height: 300px;
+        top: 100px;
+        left: 25px;
+        img {
+          margin: 25px auto;
+        }
+      }
+      .inforContact {
+        right: 10px;
+        max-width: 26rem;
+      }
+    }
+  }
+  .aboutMe {
+    img {
+      max-width: 40%;
+      height: fit-content;
+      margin-top: 50px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .contact {
+    .infor {
+      .inforContact {
+        right: 20px;
+        max-width: 15rem;
+      }
+    }
+  }
+  .skills {
+    padding-right: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .contact {
+    .infor {
+      .avatar {
+        width: 300px;
+        height: 300px;
+        top: 50px;
+        left: 40px;
+      }
+      .inforContact {
+        top: 400px;
+        left: 50px;
+      }
+    }
+  }
+  .aboutMe {
+    img {
+      display: none;
+    }
+  }
+  .skills {
+    padding-bottom: 30px;
+    .skill {
+      flex-direction: column;
+      .languages {
+        margin-bottom: 20px;
+      }
+      .frameworks {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .ex_edu {
+    flex-direction: column;
+    .experiences {
+      margin-bottom: 30px;
+    }
+  }
+  .myProject {
+    .des {
+      max-width: 100%;
+    }
+    img {
+      display: none;
+    }
+  }
+}

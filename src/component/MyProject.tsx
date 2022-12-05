@@ -65,7 +65,7 @@ const MyProject: React.FC = () => {
         </Box>
         <TabPanel value={value} index={0}>
           <div className="flex">
-            <div className="max-w-2xl">
+            <div className="des max-w-2xl">
               <h1 className="text-3xl">Project: Website Booking Movie</h1>
               <b>Description:</b>
               <p>

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="mt-5">
+    <div id="about" className="aboutMe mt-5">
       <h2 className="text-center text-teal-400 text-5xl font-bold mb-5 wow animate__bounceInDown">
         ABOUT ME
       </h2>

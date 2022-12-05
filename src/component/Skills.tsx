@@ -6,7 +6,7 @@ const Skills = () => {
       <h1 className="text-center text-teal-400 text-5xl font-black wow animate__bounceInDown">
         MY SKILLS
       </h1>
-      <div className="mt-5 ml-10 flex justify-around">
+      <div className="skill mt-5 ml-10 flex justify-around">
         <div className="languages">
           <h3 className="text-3xl text-yellow-300">Programming Languages</h3>
           <p>JavaScript ES6</p>
