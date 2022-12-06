@@ -93,7 +93,7 @@ const MyProject: React.FC = () => {
               </a>
               <br />
               <a
-                href="https://movie-ticket-11nrc0hfh-theflash2022.vercel.app"
+                href="https://movie-ticket-gamma.vercel.app"
                 target={"_blank"}
                 rel="noreferrer"
               >
