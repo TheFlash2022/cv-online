@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="skills mt-5 text-amber-50">
+    <div id="ski" className="skills mt-5 text-amber-50">
       <h1 className="text-center text-teal-400 text-5xl font-black wow animate__bounceInDown">
         MY SKILLS
       </h1>

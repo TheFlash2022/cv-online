@@ -8,7 +8,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 const Contact = () => {
   return (
-    <div className="">
+    <div id="home" className="">
       <div className="contact text-slate-100 relative">
         <div className="infor relative">
           <div className="avatar animate__animated animate__backInLeft">

@@ -10,13 +10,13 @@ import ApartmentIcon from "@mui/icons-material/Apartment";
 const actions = [
   { icon: <ApartmentIcon />, name: "Experiences", id: "ex" },
   { icon: <ConstructionIcon />, name: "Skills", id: "ski" },
-  { icon: <InfoIcon />, name: "About me", id: "abo" },
+  { icon: <InfoIcon />, name: "About me", id: "about" },
   { icon: <HomeIcon />, name: "Home", id: "home" },
 ];
 
 export default function BasicSpeedDial() {
-  const handlePush = (sectionID: MouseEvent) => {
-    const element = document.getElementById(`${sectionID}`);
+  const handlePush = (id:string) => {
+    const element = document.getElementById(`${id}`);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
@@ -33,7 +33,7 @@ export default function BasicSpeedDial() {
           icon={action.icon}
           tooltipTitle={action.name}
           key={action.name}
-          onClick={(id) => handlePush}
+          onClick={()=>handlePush(action.id)}
         />
       ))}
     </SpeedDial>
