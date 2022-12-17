@@ -66,7 +66,7 @@ const MyProject: React.FC = () => {
         <TabPanel value={value} index={0}>
           <div className="flex">
             <div className="des max-w-2xl">
-              <h1 className="text-3xl">Project: Website Booking Movie</h1>
+              <h1 className="text-3xl">Web-App: Booking Movie-Ticket</h1>
               <b>Description:</b>
               <p>
                 I applied ReactJs for this project. As for the website
