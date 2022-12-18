@@ -59,8 +59,8 @@ const MyProject: React.FC = () => {
             aria-label="basic tabs example"
           >
             <Tab label="React Js" {...a11yProps(0)} />
-            <Tab label="Angular Ts" {...a11yProps(1)} />
-            {/* <Tab label="Ux/Ui" {...a11yProps(2)} /> */}
+            <Tab label="React TypeScript" {...a11yProps(1)} />
+            <Tab label="Angular Ts" {...a11yProps(2)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
@@ -111,6 +111,35 @@ const MyProject: React.FC = () => {
         <TabPanel value={value} index={1}>
           <div className="flex justify-between">
             <div className="">
+              <h1 className="text-3xl mb-6">App: taskify</h1>
+              <a
+                href="https://github.com/TheFlash2022/Taskify.git"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                Source code
+              </a>
+              <br />
+              <a
+                href="https://taskify-roan.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                Demo
+              </a>
+            </div>
+            <div className="taskify">
+              <img
+                className="max-w-5xl"
+                src={require("../assets/images/taskify.png")}
+                alt="..."
+              />
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          <div className="flex justify-between">
+            <div className="">
               <h1 className="text-3xl mb-6">Bài tập đặt vé Angular</h1>
               <a
                 href="https://github.com/TheFlash2022/BaiTapDatVe-Angular.git"
@@ -134,8 +163,6 @@ const MyProject: React.FC = () => {
             />
           </div>
         </TabPanel>
-        {/* <TabPanel value={value} index={2}>
-        </TabPanel> */}
       </Box>
     </div>
   );

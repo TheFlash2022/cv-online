@@ -125,6 +125,13 @@
       }
     }
   }
+  .myProject {
+    .taskify {
+      img {
+        max-width: 900px;
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
   .contact {
@@ -157,6 +164,11 @@
       max-width: 50%;
       margin-right: 20px;
     }
+    .taskify {
+      img {
+        max-width: 700px;
+      }
+    }
   }
 }
 @media (max-width: 768px) {
@@ -184,6 +196,13 @@
       margin-top: 50px;
     }
   }
+  .myProject {
+    .taskify {
+      img {
+        max-width: 500px;
+      }
+    }
+  }
 }
 @media (max-width: 600px) {
   .contact {
@@ -196,6 +215,13 @@
   }
   .skills {
     padding-right: 25px;
+  }
+  .myProject {
+    .taskify {
+      img {
+        max-width: 350px;
+      }
+    }
   }
 }
 @media (max-width: 400px) {
