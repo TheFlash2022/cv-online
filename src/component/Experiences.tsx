@@ -7,7 +7,7 @@ const Experiences = () => {
         <h3 className="text-teal-300 text-4xl">Experiences</h3>
         <div className="mt-8">
           <h4 className="text-3xl mb-1 text-violet-300">
-            FPT TELECOM 02/2019 - 04/2021
+            FPT TELECOM 02/2019 - 04/2022
           </h4>
           <b className="text-yellow-300 text-xl">Technical Support</b>
           <p className="mt-1">

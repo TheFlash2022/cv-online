@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="avatar animate__animated animate__backInLeft">
             <img src={require("../assets/images/ảnh thẻ.jpg")} alt="..." />
             <p className="text-5xl">LÊ ANH SINH</p>
-            <p className="text-green-400 text-3xl">Front End - Developer</p>
+            <p className="text-green-400 text-3xl">IT Software - Engineer</p>
           </div>
           <div className="inforContact animate__animated animate__backInRight text-xl max-w-xl">
             <p><PhoneIcon />: 0982631993</p>

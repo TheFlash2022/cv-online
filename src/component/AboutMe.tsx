@@ -10,11 +10,11 @@ const AboutMe = () => {
         <div className="wow animate__heartBeat">
           <h3 className="text-center text-amber-600 text-3xl mb-3">SUMMARY</h3>
           <p className="mx-11 text-xl">
-            I am a Front-End Software Engineer with 1 year of experience in Web
-            Development. With my knowledge of UX/UI design, I enjoy solving
-            front-end problems and creating the best user experience for users.
-            I also spend time learning new technologies and best practices to
-            become a better engineer.
+            I am a Front-End Software Engineer, majored in Web Development. By
+            utilizing and applying knowledge of UX/UI design, I aim to work as a
+            a front-end solution provider and user experience creator. I am also
+            eager to learn new technology and spend much time on practising to
+            enhance my knowledge and skills.
           </p>
         </div>
         <img
