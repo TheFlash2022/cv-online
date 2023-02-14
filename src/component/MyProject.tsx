@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
@@ -38,6 +39,7 @@ function a11yProps(index: number) {
 }
 
 const MyProject: React.FC = () => {
+  const { t } = useTranslation();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -47,7 +49,7 @@ const MyProject: React.FC = () => {
   return (
     <div className="myProject">
       <h1 className="mt-16 mb-11 text-center text-5xl font-black text-sky-600 wow animate__fadeInDownBig">
-        MY PROJECT
+        {t("MY PROJECT")}
       </h1>
 
       <Box sx={{ width: "100%" }}>
@@ -66,23 +68,12 @@ const MyProject: React.FC = () => {
         <TabPanel value={value} index={0}>
           <div className="flex">
             <div className="des max-w-2xl">
-              <h1 className="text-3xl">Web-App: Booking Movie-Ticket</h1>
-              <b>Description:</b>
+              <h1 className="text-3xl">{t("Web-App: Booking Movie-Ticket")}</h1>
+              <b>{t("Description")}:</b>
               <p>
-                I applied ReactJs for this project. As for the website
-                interface: I utilized “ant design” library and some relevant
-                kinds of library, after that, I used a combination of
-                bootstraps, tailwindcss and scss to perform some nescessary
-                adjustments to the interface. Afterwards, some codes were
-                created to complete the website's functions, such as new ticket
-                booking, adding/removing tickets, price calculation, and so on.
-                As for web data: I applied ajax to call api from backend, after
-                data collecting was in place, I continued to utilize redux store
-                and hook to load data for users' interface. This is currently
-                not a commercial project, but it plays an basic role for
-                building up relevant websites which can offer to every single
-                user more advantages as well as satisfied and convenient
-                experiences.
+                {t(
+                  "I applied ReactJs for this project. As for the website interface: I utilized “ant design” library and some relevant kinds of library, after that, I used a combination of bootstraps, tailwindcss and scss to perform some nescessary adjustments to the interface. Afterwards, some codes were created to complete the website's functions, such as new ticket booking, adding/removing tickets, price calculation, and so on. As for web data: I applied ajax to call api from backend, after data collecting was in place, I continued to utilize redux store and hook to load data for users' interface. This is currently not a commercial project, but it plays an basic role for building up relevant websites which can offer to every single user more advantages as well as satisfied and convenient experiences."
+                )}
               </p>
               <a
                 href="https://github.com/TheFlash2022/Movie-Ticket.git"
@@ -111,7 +102,7 @@ const MyProject: React.FC = () => {
         <TabPanel value={value} index={1}>
           <div className="flex justify-between">
             <div className="">
-              <h1 className="text-3xl mb-6">App: taskify</h1>
+              <h1 className="text-3xl mb-6">{t("App: taskify")}</h1>
               <a
                 href="https://github.com/TheFlash2022/Taskify.git"
                 target={"_blank"}
@@ -140,7 +131,7 @@ const MyProject: React.FC = () => {
         <TabPanel value={value} index={2}>
           <div className="flex justify-between">
             <div className="">
-              <h1 className="text-3xl mb-6">Bài tập đặt vé Angular</h1>
+              <h1 className="text-3xl mb-6">{t("Ticket chair Angular")}</h1>
               <a
                 href="https://github.com/TheFlash2022/BaiTapDatVe-Angular.git"
                 target={"_blank"}

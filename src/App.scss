@@ -7,6 +7,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+.language {
+  position: fixed;
+  z-index: 1;
+  right: 30px;
+  top: 10px;
+  border-radius: 7px;
+  padding: 5px;
+}
+
 .contact {
   background: url(./assets/images/ban6666.jpg) no-repeat 0px 0px;
   background-size: cover;

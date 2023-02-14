@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const Footer = () => {
+const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="Footer text-slate-400 bg-zinc-900">
       <div className="text-center text-6xl">
@@ -10,7 +13,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          DOWNLOAD CV
+          {t("DOWNLOAD CV")}
         </a>
       </div>
     </div>

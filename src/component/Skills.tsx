@@ -1,19 +1,23 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const Skills = () => {
+const Skills: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div id="ski" className="skills mt-5 text-amber-50">
       <h1 className="text-center text-teal-400 text-5xl font-black wow animate__bounceInDown">
-        MY SKILLS
+        {t("MY SKILLS")}
       </h1>
       <div className="skill mt-5 ml-10 flex justify-around">
         <div className="languages">
-          <h3 className="text-3xl text-yellow-300">Programming Languages</h3>
+          <h3 className="text-3xl text-yellow-300">
+            {t("Programming Languages")}
+          </h3>
           <p>JavaScript ES6</p>
           <p>TypeScript</p>
         </div>
         <div className="frameworks">
-          <h3 className="text-3xl text-lime-300">Frameworks/Library</h3>
+          <h3 className="text-3xl text-lime-300">{t("Frameworks/Library")}</h3>
           <p>UI/UX</p>
           <p>HTML & CSS, SCSS</p>
           <p>Tailwind, Bootstrap</p>
@@ -27,7 +31,7 @@ const Skills = () => {
           <p></p>
         </div>
         <div className="other">
-          <h3 className="text-3xl text-purple-300">Other skills</h3>
+          <h3 className="text-3xl text-purple-300">{t("Other skills")}</h3>
           <p>Git</p>
           <p>Git hub</p>
           <p>Balsamiq Wireframes</p>

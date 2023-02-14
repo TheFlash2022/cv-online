@@ -15,7 +15,7 @@ const actions = [
 ];
 
 export default function BasicSpeedDial() {
-  const handlePush = (id:string) => {
+  const handlePush = (id: string) => {
     const element = document.getElementById(`${id}`);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -25,7 +25,7 @@ export default function BasicSpeedDial() {
   return (
     <SpeedDial
       ariaLabel="SpeedDial basic example"
-      sx={{ position: "fixed", top: 16, right: 16 }}
+      sx={{ position: "fixed", top: 45, right: 16 }}
       icon={<MenuIcon />}
     >
       {actions.map((action) => (
@@ -33,7 +33,7 @@ export default function BasicSpeedDial() {
           icon={action.icon}
           tooltipTitle={action.name}
           key={action.name}
-          onClick={()=>handlePush(action.id)}
+          onClick={() => handlePush(action.id)}
         />
       ))}
     </SpeedDial>

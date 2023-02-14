@@ -2,11 +2,13 @@ import React from "react";
 import { GitHub } from "@mui/icons-material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
-import HomeIcon from '@mui/icons-material/Home';
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import HomeIcon from "@mui/icons-material/Home";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div id="home" className="">
       <div className="contact text-slate-100 relative">
@@ -14,14 +16,20 @@ const Contact = () => {
           <div className="avatar animate__animated animate__backInLeft">
             <img src={require("../assets/images/ảnh thẻ.jpg")} alt="..." />
             <p className="text-5xl">LÊ ANH SINH</p>
-            <p className="text-green-400 text-3xl">IT Software - Engineer</p>
+            <p className="text-green-400 text-3xl">
+              {t("IT Software - Engineer")}
+            </p>
           </div>
           <div className="inforContact animate__animated animate__backInRight text-xl max-w-xl">
-            <p><PhoneIcon />: 0982631993</p>
-            <p><EmailIcon />: sinhla213@gmail.com</p>
             <p>
-              <HomeIcon />: 537 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2 - Tp Thủ
-              Đức, TpHCM
+              <PhoneIcon />: 0982631993
+            </p>
+            <p>
+              <EmailIcon />: sinhla213@gmail.com
+            </p>
+            <p>
+              <HomeIcon />: 537 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2 -
+              Tp Thủ Đức, TpHCM
             </p>
             <a
               href="https://github.com/TheFlash2022"
