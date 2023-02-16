@@ -27,9 +27,11 @@ const resources = {
         "Trách nhiệm: Tổng đài viên chăm sóc khách hàng - hỗ trợ khách hàng về các vấn đề kĩ thuật liên quan tới mạng internet, dịch vụ truyền hình và các dịch vụ liên quan, xử lý các khiếu nại của khách hàng với các giải thích và giải pháp rõ ràng, đặc biệt là đối với kết nối Internet; Cung cấp các sản phẩm, quy trình và dịch vụ sau khi bán hàng rõ ràng và chi tiết.",
       "Seek for potential retail customers who have demand for importing a varied range of consumer goods; Provide the package of importing goods from some Asia countries, for example, from China to Vietnam; Receive and give advice for clients' relevant inquiries.":
         "Tìm kiếm cho các khách hàng bán lẻ tiềm năng, những người có nhu cầu nhập khẩu một loạt các hàng tiêu dùng khác nhau; Cung cấp gói nhập khẩu hàng hóa từ một số quốc gia châu Á, ví dụ, từ Trung Quốc đến Việt Nam; Nhận và đưa ra lời khuyên cho các yêu cầu liên quan của khách hàng.",
+        "UNIVERSITY OF TECHNOLOGY": "Đại học Bách Khoa",
       "Major: Faculty of Geology & Petroleum Engineering":
         "Chuyên ngành: Kĩ thuật Địa Chất và Dầu Khí",
       "Earth Resources and Environment": "Tài nguyên trái đất và môi trường",
+      "HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY(Degree 2)": "Đại học Bách Khoa Hà Nội(bằng 2)",
       "Major: Information Technology": "Chuyên ngành: Công nghệ Thông Tin",
       "Completed Project: Analyze and design system of e-commerce website":
         "Dự án đã hoàn thành: Phân tích và thiết kế hệ thống trang thương mại điện tử",

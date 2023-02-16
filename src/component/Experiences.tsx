@@ -42,7 +42,7 @@ const Experiences: React.FC = () => {
         </div>
         <div className="mt-20">
           <h4 className="text-3xl mb-1 text-violet-300">
-            HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY 06/2019 - 11/2021
+            {t("HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY(Degree 2)")} 06/2019 - 11/2021
           </h4>
           <b className="text-yellow-300 text-xl">
             {t("Major: Information Technology")}
@@ -55,7 +55,7 @@ const Experiences: React.FC = () => {
         </div>
         <div className="mt-20">
           <h4 className="text-3xl mb-1 text-violet-300">
-            UNIVERSITY OF TECHNOLOGY 09/2011 - 05/2016
+            {t("UNIVERSITY OF TECHNOLOGY")} 09/2011 - 05/2016
           </h4>
           <b className="text-yellow-300 text-xl">
             {t("Major: Faculty of Geology & Petroleum Engineering")}
