@@ -84,6 +84,9 @@
   p {
     font-size: 22px;
   }
+  .title_skills {
+    width: 87%;
+  }
 }
 
 .ex_edu {
@@ -209,6 +212,23 @@
     .taskify {
       img {
         max-width: 500px;
+      }
+    }
+  }
+  .skills {
+    .skill {
+      .FrontEnd {
+        h4 {
+          position: absolute;
+          top: -25px;
+          left: -30px;
+        }
+      }
+      .BackEnd {
+        .frameworks {
+          position: relative;
+          left: 80px;
+        }
       }
     }
   }
