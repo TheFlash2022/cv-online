@@ -18,7 +18,9 @@ const resources = {
       "Other skills": "Kĩ năng khác",
       Experiences: "Kinh nghiệm",
       Education: "Học vấn",
-      "Responsibilities: Responsible for working on multiple projects at the same time, designing attractive websites, interacting daily with fellow graphic designers, back-end developers and marketing teams. Develop and maintain front-end functionality of websites. Engage in discussions with customers to clarify what they want. Design prototypes for apps and websites. Write cross-browser compatible HTML, CSS and JavaScript. Manage several databases and reporting tools. Contact external webmaster to determine link placement (for SEO purposes)":
+      "FPT Software": "Công ty TNHH Phần mềm FPT",
+      "Intern FrontEnd Developer": "Thực tập sinh Front-End Dev",
+      "Responsible for working on multiple projects at the same time, designing attractive websites, interacting daily with fellow graphic designers, back-end developers and marketing teams. Develop and maintain front-end functionality of websites. Engage in discussions with customers to clarify what they want. Design prototypes for apps and websites. Write cross-browser compatible HTML, CSS and JavaScript. Manage several databases and reporting tools. Contact external webmaster to determine link placement (for SEO purposes)":
         "Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị. Phát triển và duy trì chức năng front-end của các trang web. Tham gia thảo luận với khách hàng để làm rõ những gì họ muốn. Thiết kế prototypes cho ứng dụng và trang web. Viết HTML, CSS và JavaScript tương thích với nhiều trình duyệt (cross-browser). Quản lý một số cơ sở dữ liệu và các công cụ báo cáo. Liên hệ với quản trị viên web bên ngoài để xác định vị trí đặt link (cho mục đích SEO)",
       "FPT TELECOM": "Công ty cổ phần viễn thông FPT Telecom",
       "Technical Support": "Hỗ trợ kĩ thuật",

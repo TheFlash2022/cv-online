@@ -9,12 +9,14 @@ const Experiences: React.FC = () => {
         <h3 className="text-teal-300 text-4xl">{t("Experiences")}</h3>
         <div className="mt-8">
           <h4 className="text-3xl mb-1 text-violet-300">
-            FPT Software 05/2022 - 12/2022
+            {t("FPT Software")} 05/2022 - 12/2022
           </h4>
-          <b className="text-yellow-300 text-xl">Intern FrontEnd Developer</b>
+          <b className="text-yellow-300 text-xl">
+            {t("Intern FrontEnd Developer")}
+          </b>
           <p className="mt-1">
             {t(
-              "Responsibilities: Responsible for working on multiple projects at the same time, designing attractive websites, interacting daily with fellow graphic designers, back-end developers and marketing teams. Develop and maintain front-end functionality of websites. Engage in discussions with customers to clarify what they want. Design prototypes for apps and websites. Write cross-browser compatible HTML, CSS and JavaScript. Manage several databases and reporting tools. Contact external webmaster to determine link placement (for SEO purposes)"
+              "Responsible for working on multiple projects at the same time, designing attractive websites, interacting daily with fellow graphic designers, back-end developers and marketing teams. Develop and maintain front-end functionality of websites. Engage in discussions with customers to clarify what they want. Design prototypes for apps and websites. Write cross-browser compatible HTML, CSS and JavaScript. Manage several databases and reporting tools. Contact external webmaster to determine link placement (for SEO purposes)"
             )}
           </p>
         </div>
