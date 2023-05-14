@@ -18,6 +18,8 @@ const resources = {
       "Other skills": "Kĩ năng khác",
       Experiences: "Kinh nghiệm",
       Education: "Học vấn",
+      "Responsibilities: Responsible for working on multiple projects at the same time, designing attractive websites, interacting daily with fellow graphic designers, back-end developers and marketing teams. Develop and maintain front-end functionality of websites. Engage in discussions with customers to clarify what they want. Design prototypes for apps and websites. Write cross-browser compatible HTML, CSS and JavaScript. Manage several databases and reporting tools. Contact external webmaster to determine link placement (for SEO purposes)":
+        "Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị. Phát triển và duy trì chức năng front-end của các trang web. Tham gia thảo luận với khách hàng để làm rõ những gì họ muốn. Thiết kế prototypes cho ứng dụng và trang web. Viết HTML, CSS và JavaScript tương thích với nhiều trình duyệt (cross-browser). Quản lý một số cơ sở dữ liệu và các công cụ báo cáo. Liên hệ với quản trị viên web bên ngoài để xác định vị trí đặt link (cho mục đích SEO)",
       "FPT TELECOM": "Công ty cổ phần viễn thông FPT Telecom",
       "Technical Support": "Hỗ trợ kĩ thuật",
       "E-WORLD E-COMMERCE AND TECHNOLOGY JOINT STOCK COMPANY":
@@ -27,11 +29,12 @@ const resources = {
         "Trách nhiệm: Tổng đài viên chăm sóc khách hàng - hỗ trợ khách hàng về các vấn đề kĩ thuật liên quan tới mạng internet, dịch vụ truyền hình và các dịch vụ liên quan, xử lý các khiếu nại của khách hàng với các giải thích và giải pháp rõ ràng, đặc biệt là đối với kết nối Internet; Cung cấp các sản phẩm, quy trình và dịch vụ sau khi bán hàng rõ ràng và chi tiết.",
       "Seek for potential retail customers who have demand for importing a varied range of consumer goods; Provide the package of importing goods from some Asia countries, for example, from China to Vietnam; Receive and give advice for clients' relevant inquiries.":
         "Tìm kiếm cho các khách hàng bán lẻ tiềm năng, những người có nhu cầu nhập khẩu một loạt các hàng tiêu dùng khác nhau; Cung cấp gói nhập khẩu hàng hóa từ một số quốc gia châu Á, ví dụ, từ Trung Quốc đến Việt Nam; Nhận và đưa ra lời khuyên cho các yêu cầu liên quan của khách hàng.",
-        "UNIVERSITY OF TECHNOLOGY": "Đại học Bách Khoa",
+      "UNIVERSITY OF TECHNOLOGY": "Đại học Bách Khoa",
       "Major: Faculty of Geology & Petroleum Engineering":
         "Chuyên ngành: Kĩ thuật Địa Chất và Dầu Khí",
       "Earth Resources and Environment": "Tài nguyên trái đất và môi trường",
-      "HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY(Degree 2)": "Đại học Bách Khoa Hà Nội(bằng 2)",
+      "HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY(Degree 2)":
+        "Đại học Bách Khoa Hà Nội(bằng 2)",
       "Major: Information Technology": "Chuyên ngành: Công nghệ Thông Tin",
       "Completed Project: Analyze and design system of e-commerce website":
         "Dự án đã hoàn thành: Phân tích và thiết kế hệ thống trang thương mại điện tử",
