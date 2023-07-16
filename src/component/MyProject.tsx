@@ -168,14 +168,18 @@ const MyProject: React.FC = () => {
               </a>
               <br />
               <a
-                href="https://bulkymvc-byleanh.azurewebsites.net"
+                href="bookstorebyleanh.azurewebsites.net"
                 target={"_blank"}
                 rel="noreferrer"
               >
                 Demo
               </a>
             </div>
-            <img src={require("../assets/images/BulkyMVC.png")} width={'80%'} alt="..." />
+            <img
+              src={require("../assets/images/BulkyMVC.png")}
+              width={"80%"}
+              alt="..."
+            />
           </div>
         </TabPanel>
       </Box>
