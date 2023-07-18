@@ -168,7 +168,7 @@ const MyProject: React.FC = () => {
               </a>
               <br />
               <a
-                href="bookstorebyleanh.azurewebsites.net"
+                href="https://bookstorebyleanh.azurewebsites.net"
                 target={"_blank"}
                 rel="noreferrer"
               >
