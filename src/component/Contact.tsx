@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="infor relative">
           <div className="avatar animate__animated animate__backInLeft">
             <img src={require("../assets/images/ảnh thẻ.jpg")} alt="..." />
-            <p className="text-5xl">LÊ ANH SINH</p>
+            <p data-testid="myName" className="text-5xl">LÊ ANH SINH</p>
             <p className="text-green-400 text-3xl">
               {t("IT Software - Engineer")}
             </p>
