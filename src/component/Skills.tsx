@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Skills: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div id="ski" className="skills mt-5 pb-6 text-amber-50">
+    <div data-testid="ski" id="ski" className="skills mt-5 pb-6 text-amber-50">
       <h1 className="text-center text-teal-400 text-5xl font-black wow animate__bounceInDown">
         {t("MY SKILLS")}
       </h1>

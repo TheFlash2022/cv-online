@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Experiences: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div id="ex" className="ex_edu flex justify-around pt-14 pb-8 text-white">
+    <div data-testid="ex" id="ex" className="ex_edu flex justify-around pt-14 pb-8 text-white">
       <div className="experiences wow animate__bounceInLeft">
         <h3 className="text-teal-300 text-4xl">{t("Experiences")}</h3>
         <div className="mt-8">

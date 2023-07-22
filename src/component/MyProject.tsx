@@ -47,7 +47,7 @@ const MyProject: React.FC = () => {
   };
 
   return (
-    <div className="myProject">
+    <div data-testid="myProject" className="myProject">
       <h1 className="mt-16 mb-11 text-center text-5xl font-black text-sky-600 wow animate__fadeInDownBig">
         {t("MY PROJECT")}
       </h1>
