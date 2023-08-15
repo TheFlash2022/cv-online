@@ -1,5 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import CakeView from "../features/cake/CakeView";
+import { Counter } from "../features/counter/Counter";
 
 const Hello: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -12,6 +14,8 @@ const Hello: React.FC = () => {
       >
         {t("ABOUT ME")}
       </button>
+      <CakeView />
+      <Counter />
     </div>
   );
 };
