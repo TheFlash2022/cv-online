@@ -2,7 +2,7 @@ import React from "react";
 import { useAppDispatch, useAppSelector } from "../../app/hook";
 import { ordered, restocked } from "../cake/cakeSlice";
 
-const CakeView = () => {
+const CakeView: React.FC = () => {
   const numOfCakes = useAppSelector((state) => state.cake.numOfCakes);
   const dispatch = useAppDispatch();
   return (
