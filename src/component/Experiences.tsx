@@ -18,7 +18,9 @@ const Experiences: React.FC = () => {
           <b className="text-yellow-300 text-xl">
             {t("Fresher BackEnd Developer")}
           </b>
-          <p className="mt-1">{t("")}</p>
+          <p className="mt-1">{t(`Development: Back-end developers use programming languages such as C#, JavaScript, and TypeScript to write the code that powers the application. They also work with databases, servers, and other infrastructure components.`)}</p>
+          <p className="mt-1">{t(`Testing and deployment: Once the code is written, back-end developers test it to ensure that it works correctly. Once the code is tested and approved, they deploy it to production so that users can start using it.`)}</p>
+          <p className="mt-1">{t(`Maintenance and support: Back-end developers are also responsible for maintaining and supporting the application after it is deployed. This includes fixing bugs, adding new features, and performance tuning.`)}</p>
         </div>
         <div className="mt-8">
           <h4 className="text-3xl mb-1 text-violet-300">
