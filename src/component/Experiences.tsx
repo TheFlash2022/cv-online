@@ -13,7 +13,7 @@ const Experiences: React.FC = () => {
         <h3 className="text-teal-300 text-4xl">{t("Experiences")}</h3>
         <div className="mt-8">
           <h4 className="text-3xl mb-1 text-violet-300">
-            {t("BeeTech")} 02/2020 - now
+            {t("BeeTech")} 02/2021 - now
           </h4>
           <b className="text-yellow-300 text-xl">
             {t("Fresher BackEnd Developer")}
@@ -24,7 +24,7 @@ const Experiences: React.FC = () => {
         </div>
         <div className="mt-8">
           <h4 className="text-3xl mb-1 text-violet-300">
-            {t("FPT Software")} 05/2019 - 12/2019
+            {t("FPT Software")} 05/2020 - 12/2020
           </h4>
           <b className="text-yellow-300 text-xl">
             {t("Intern FrontEnd Developer")}
@@ -37,7 +37,7 @@ const Experiences: React.FC = () => {
         </div>
         <div className="mt-8">
           <h4 className="text-3xl mb-1 text-violet-300">
-            {t("FPT TELECOM")} 02/2017 - 04/2019
+            {t("FPT TELECOM")} 02/2017 - 04/2020
           </h4>
           <b className="text-yellow-300 text-xl">{t("Technical Support")}</b>
           <p className="mt-1">
