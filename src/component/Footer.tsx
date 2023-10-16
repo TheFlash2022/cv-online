@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="text-center text-6xl">
         <a
           className="animate__animated animate__heartBeat animate__infinite"
-          href="https://drive.google.com/file/d/1wtdtiBkdtzW0jkRYGCUKIbQkIJbcIRTY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1wu5HAvjOYUQILJy9r3qDz1IaukO4MxOq/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
