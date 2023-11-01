@@ -52,7 +52,7 @@ const Skills: React.FC = () => {
           <div className="languages relative left-12">
             <p>C#</p>
             <p>OOP</p>
-            <p>MS SQL Database</p>
+            <p className="w-1/2">MS SQL Database</p>
           </div>
           <div className="frameworks relative left-72">
             <p>ORMs (Entity framework) </p>
