@@ -8,19 +8,17 @@ const Skills: React.FC = () => {
       <h1 className="text-center text-teal-400 text-5xl font-black wow animate__bounceInDown">
         {t("MY SKILLS")}
       </h1>
-      <div className="title_skills flex justify-between mt-9">
-        <h3 className="text-3xl text-yellow-300 p-2 ml-5">
+      <div className="title_skills flex justify-between mt-9 ml-2 pr-6">
+        <h3 className="lan text-3xl text-yellow-300 p-2">
           {t("Programming Languages")}
         </h3>
-        <h3 className="text-3xl text-lime-300 p-2">
+        <h3 className="fr text-3xl text-lime-300 p-2">
           {t("Frameworks/Library")}
         </h3>
-        <h3 className="text-3xl text-purple-300 p-2 mr-5">
-          {t("Other skills")}
-        </h3>
+        <h3 className="ot text-3xl text-purple-300 p-2">{t("Other skills")}</h3>
       </div>
       <div className="skill">
-        <div className="FrontEnd mt-5 ml-10 flex justify-around relative">
+        <div className="FrontEnd mt-5 flex justify-around relative">
           <h4 className="absolute top-1 left-1">Front-End</h4>
           <div className="languages">
             <p>JavaScript</p>
@@ -48,7 +46,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
         <div className="BackEnd mt-5 flex justify-start relative">
-          <h4 className="ml-5">Back-End</h4>
+          <h4 className="ml-1.5">Back-End</h4>
           <div className="languages relative left-12">
             <p>C#</p>
             <p>OOP</p>

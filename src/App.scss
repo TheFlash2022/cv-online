@@ -318,15 +318,58 @@
     }
   }
   .skills {
+    padding-right: 1px;
+    .title_skills {
+      width: 100%;
+      h3 {
+        font-size: 11px;
+      }
+      margin-left: 1px;
+    }
     padding-bottom: 30px;
     .skill {
+      .FrontEnd {
+        h4 {
+          top: 3px;
+          left: 3px;
+        }
+        .languages {
+          position: absolute;
+          top: 30px;
+          left: 6px;
+        }
+        .frameworks {
+          padding-left: 0px;
+          margin-bottom: 0px;
+        }
+        .other {
+          position: absolute;
+          top: 10px;
+          right: 1px;
+          width: 30%;
+          padding-left: 0px;
+        }
+      }
+      .BackEnd {
+        margin-left: 2px;
+        h4 {
+          margin-left: 0px;
+        }
+        .languages {
+          position: absolute;
+          top: 30px;
+          left: 20px;
+        }
+        .frameworks {
+          position: absolute;
+          top: 30px;
+          left: 211px;
+        }
+      }
+      p {
+        font-size: 11px;
+      }
       flex-direction: column;
-      .languages {
-        margin-bottom: 20px;
-      }
-      .frameworks {
-        margin-bottom: 20px;
-      }
     }
   }
   .ex_edu {
