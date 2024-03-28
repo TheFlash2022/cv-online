@@ -7,7 +7,7 @@ const Hello: React.FC = () => {
   const { t, i18n } = useTranslation();
   return (
     <div>
-      <button
+      <button className="btn btn-primary"
         onClick={() => {
           console.log(i18n);
         }}

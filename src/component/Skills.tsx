@@ -41,7 +41,7 @@ const Skills: React.FC = () => {
             <p>Git</p>
             <p>Deploy by Nginx</p>
             <p>Design by Figma</p>
-            <p>CMD with Ubuntu Server</p>
+            <p>Ubuntu Server</p>
             <p>Docker container</p>
           </div>
         </div>
