@@ -1,5 +1,5 @@
 import React from "react";
-import { GitHub } from "@mui/icons-material";
+// import { GitHub } from "@mui/icons-material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -31,13 +31,13 @@ const Contact = () => {
               <HomeIcon />: 537 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2 -
               Tp Thủ Đức, TpHCM
             </p>
-            <a
+            {/* <a
               href="https://github.com/TheFlash2022"
               target={"_blank"}
               rel="noreferrer"
             >
               <GitHub /> Github
-            </a>
+            </a> */}
             <br />
             <a
               href="https://www.linkedin.com/in/sinhla213"
