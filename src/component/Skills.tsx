@@ -27,15 +27,12 @@ const Skills: React.FC = () => {
           <div className="frameworks">
             <p>UI/UX</p>
             <p>HTML & CSS, SCSS</p>
-            <p>Tailwind, Bootstrap</p>
-            <p>JQuery</p>
-            <p>Ajax</p>
+            <p>JQuery, Ajax</p>
             <p>REST API</p>
-            <p>ReactJS</p>
             <p>Redux, Redux-toolkit</p>
             <p>React Typescript</p>
             <p>Angular TS</p>
-            <p></p>
+            <p>NextJs</p>
           </div>
           <div className="other">
             <p>Git</p>
@@ -48,9 +45,8 @@ const Skills: React.FC = () => {
         <div className="BackEnd mt-5 flex justify-start relative">
           <h4 className="ml-1.5">Back-End</h4>
           <div className="languages relative left-12">
-            <p>C#</p>
-            <p>OOP</p>
-            <p className="w-1/2">MS SQL Database</p>
+            <p>C# dotnet</p>
+            <p className="w-1/2">MS SQL, MongoDB, SQLite</p>
           </div>
           <div className="frameworks relative left-72">
             <p>ORMs (Entity framework) </p>
